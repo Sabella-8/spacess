@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    color: #6a6c6e;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#hero {
+    background-image: url("200w\ \(1\).webp");
+    background-size: cover;
+    padding: 10px 0 40px 0;
+}
+
+#space-logo {
+    width: 100px;
+}
+
+/*
+Challenge:
+Add a blurred border around the <h1> using
+the text-shadow technique you just learned. Set
+the blur to 4px and the color to black.
+*/
+h1{text-shadow:2px 2px 5px rgb(98, 44, 44)}
+
+.buto {
+    padding: 6px 12px;
+    background: white;
+    border: 1px solid black;
+    font-family: 'Orbitron', sans-serif;
+    color: #6a6c6e;
+    font-weight: 800;
+}
+
+.underline {
+    border-bottom: 4px solid rgb(112, 94, 94);
+}
+   
